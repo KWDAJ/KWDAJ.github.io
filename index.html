@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="1025工作室，独立游戏与创意产品开发团队，代表作像素江湖、霓虹防线、MBTI 40人格测试">
+<title>1025Studio | 1025工作室</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111827'/%3E%3Ctext x='16' y='22' font-size='15' font-weight='bold' text-anchor='middle' fill='%2338bdf8' font-family='monospace'%3E10%3C/text%3E%3C/svg%3E">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#111827; --panel:#1f2937; --line:#374151;
+  --text:#f3f4f6; --sub:#d1d5db; --muted:#9ca3af;
+  --accent:#38bdf8; --warm:#fb923c;
+}
+html,body{height:100%}
+body{
+  min-height:100vh;background:var(--bg);color:var(--text);
+  font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  display:flex;flex-direction:column;align-items:center;padding:32px 20px;
+}
+.wrap{width:100%;max-width:640px}
+.hero{text-align:center;margin-bottom:34px}
+.logo{display:inline-flex;align-items:center;gap:10px;font-size:32px;font-weight:800;letter-spacing:.5px;color:var(--accent);margin-bottom:10px}
+.logo .mark{width:34px;height:34px;border-radius:8px;background:var(--panel);border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;font-family:monospace;font-size:15px;color:var(--accent)}
+.subtitle{font-size:15px;color:var(--muted)}
+.desc{font-size:16px;line-height:1.8;color:var(--sub);text-align:left;margin-bottom:12px}
+.block-title{font-size:19px;font-weight:700;color:var(--warm);text-align:left;margin:34px 0 14px;padding-left:10px;border-left:4px solid var(--warm)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;text-align:left;color:var(--sub);line-height:1.9}
+.panel .item{margin:8px 0}
+.panel .item:first-child{margin-top:0}
+.panel .item:last-child{margin-bottom:0}
+.panel strong{color:var(--text)}
+.cta{text-align:center;margin:36px 0 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 34px;background:var(--accent);color:#0f172a;font-weight:700;font-size:16px;border:none;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s}
+.btn:hover{background:#0ea5e9}
+.btn:active{transform:scale(.97)}
+.footer{margin-top:46px;text-align:center;font-size:13px;color:var(--muted)}
+.footer a{color:var(--accent);text-decoration:none}
+@media (min-width:768px){
+  .logo{font-size:34px}
+  .desc{font-size:17px}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="hero">
+    <div class="logo"><span class="mark">10</span><span>1025Studio</span></div>
+    <div class="subtitle">独立游戏 · 创意产品 · 自研开发工作室</div>
+  </div>
+
+  <p class="desc">诞生于对像素游戏的热爱，1025工作室是一支专注自研的小型独立开发团队。我们坚持以玩法为核心、细节为根本，优先打造流畅的操作手感与轻松有趣的互动体验。团队自主完成策划、程序、设计全流程工作，持续打磨优质独立作品，用心实现每一个创意想法。</p>
+
+  <h2 class="block-title">工作室开发历程</h2>
+  <div class="panel">
+    <div class="item">早期阶段：深耕像素美术与小游戏开发，积累横版战斗、联机同步、塔防数值开发经验。</div>
+    <div class="item">像素乱斗：初代联机对战试验项目，搭建多人联机底层框架与角色对战逻辑。</div>
+    <div class="item">霓虹防线：自研塔防项目，完成关卡系统、怪物 AI、数值平衡与增量更新体系搭建。</div>
+    <div class="item">MBTI 40 型人格测试：自研创意 Web 产品，打造多维人格分析与全球实时数据展示系统。</div>
+    <div class="item">2026 主力项目：《像素江湖》正式迭代开发，像素武侠题材多人联机对战游戏，持续更新优化。</div>
+  </div>
+
+  <h2 class="block-title">代表自研作品</h2>
+  <div class="panel">
+    <div class="item"><strong>像素江湖</strong> — 像素武侠多人联机对战游戏，主打扎实手感、差异化技能与稳定联机体验。</div>
+    <div class="item"><strong>霓虹防线</strong> — 轻量策略塔防游戏，拥有独立关卡体系与智能怪物 AI 系统。</div>
+    <div class="item"><strong>MBTI 40 人格测试</strong> — 创新型人格测评网页应用，多维人格解析，轻量化高适配体验。</div>
+  </div>
+
+  <div class="cta">
+    <a class="btn" href="https://pixeljianghu.pages.dev/" target="_blank" rel="noopener">进入游戏</a>
+  </div>
+
+  <div class="footer">© 2026 1025Studio 1025工作室 · <a href="https://www.taptap.cn" target="_blank" rel="noopener">TapTap 主页</a></div>
+</main>
+</body>
+</html>
